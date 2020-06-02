@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+body{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(196, 194, 168);
+}
+#root{
+  align-self: flex-start;
+  background-color: rgb(64, 65, 70);
+  width: 22em;
+  margin: 8em 0 4em 0;
+  font-weight: bold;
+  color: white;
+  border: 5px solid black;
+  box-shadow: 14px 30px 12px rgba(0, 0, 0, 0.424);
+}
+
+#displayScreen{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: right;
+  font-family: Digital,cursive;
+  height: auto;
+  min-height: 4em;
+  font-weight: lighter;
+}
+.display:nth-child(1){
+  height:auto;
+  min-height: 0.4em;
+  font-size: 20px;
+  padding:0.5em 0.5em 0.5em 0;
+  color:goldenrod;
+  overflow-wrap: break-word;
+  line-height: 1em;
+}
+.display:nth-child(2){
+  font-size:30px;
+  padding: 0em 0.3em 0.7em 0;
+}
+
+
+#top{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+}
+#top > div{
+  padding: 1.3em 1em;
+  border: 1px solid black;
+}
+#clear{
+  grid-column: 1/3;
+  background-color: rgb(173, 71, 71);
+}
+
+#numericpad{
+  display: flex;
+}
+
+#digits{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 75%;
+}
+#digits > div{
+  border:1px solid black;
+  text-align: center;
+  padding: 1.35em 1em;
+}
+#zero{
+  grid-column:1/3;
+}
+#right{
+ display: flex;
+ flex-direction: column;
+ grid-template-rows: repeat(4,1fr);
+ text-align: center;
+ width: 25%; 
+}
+#right > div{
+  padding: 1.35em 1em;
+  border: 1px solid black;
+}
+#equals{
+  display: block;
+  line-height:5.12em;
+  background-color: rgba(85, 123, 235, 0.657);
+}
+
+#numericpad > div > div:hover,
+#top > div:hover {
+  border: 1px solid rgba(255, 255, 255, 0.623);
+}
+
+#multiply,
+#divide,
+#add,
+#subtract {
+  background-color: rgb(121, 119, 119);
+}
