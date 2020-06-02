@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+#quote-box{
+    background-color:white;
+    align-self:center;
+    justify-self:flex-start;  
+    text-align:center;
+    width:32em;
+    max-width:90%;
+    height:auto;
+    padding:0 0 20px 0;
+    margin: 150px 0 0 0;
+    display:flex;
+    flex-direction:column;
+    border-radius:10px;
+}
+#main{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    overflow:auto;
+}
+#text{
+    padding-top:50px;
+    font-size:25px;
+    font-weight:bold;
+    font-family:sansSerif;
+    width:85%;
+    align-self:center;
+}
+#author{
+  text-align:right;
+  padding:40px 60px 40px 0;
+}
+
+#buttons{
+    display:flex;
+    justify-content:space-between;
+    padding:0 40px 10px 40px;
+}
+#tweet-quote{
+  display:block;
+  width:50px;
+  padding:0.1em;
+  border-radius:5px;
+  color:white;
+}
+.fa-quote-left{
+  font-size:30px;
+  margin-right:10px;
+}
