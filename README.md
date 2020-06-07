@@ -1,5 +1,5 @@
 # fcc-frontend-projects
-<p>This repository contains all FCC's frontend projects as a part of Frontend Libraries Certification at <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>.
+<p>This repository contains all FCC's frontend projects as a part of learning front end development at <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>.
 
 I have done all projects using ReactJS. All projects has been made responsive.</p>
 
