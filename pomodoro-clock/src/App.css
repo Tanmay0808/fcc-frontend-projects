@@ -40,7 +40,8 @@ body{
 .components > div{
   margin: 5px 20px;
 }
-.fa:hover{
+.fa-arrow-circle-up:hover,
+.fa-arrow-circle-down:hover{
   color: rgb(29, 135, 255);
 }
 
